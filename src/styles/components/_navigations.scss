@@ -1,0 +1,50 @@
+.sidebar {
+  background-color: #31313a;
+  color: $white;
+  position: absolute;
+  top: 7rem;
+  left: 5.5rem;
+  border-radius: 6px;
+  z-index: 1;
+
+  .hamburger {
+    position: absolute;
+    padding: 10px 10px 2px 10px;
+    top: -4rem;
+    left: 1.7rem;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #31313a;
+    &:hover {
+      color: #ff6600;
+      svg {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .link {
+    padding: 10px 10px 4px 10px;
+    font-size: 0.6rem;
+    width: 65px;
+
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4) {
+      border-top: 1px solid #9b3e00;
+    }
+    a {
+      display: flex;
+      flex-direction: column;
+      color: $white;
+      align-items: center;
+
+      &:hover {
+        color: #ff6600;
+      }
+    }
+    .active {
+      color: #ff6600;
+    }
+  }
+}

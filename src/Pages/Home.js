@@ -1,10 +1,12 @@
 import React from "react";
-import User from "../Components/User";
+import Navigation from "../Components/Navigation";
+import Profile from "../Components/Profile";
 
 const Home = () => {
   return (
-    <div>
-      <User />
+    <div className="main-container">
+      <Navigation />
+      <Profile />
       <h1>HOME</h1>
     </div>
   );
