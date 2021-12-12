@@ -10,6 +10,7 @@
   box-shadow: -21px -20px 0px -4px rgba(33, 33, 37, 0.75);
 
   .info {
+    text-align: center;
     margin-top: 5rem;
 
     img {
@@ -21,15 +22,14 @@
     .details {
       color: $white;
 
-      h3 {
+      h2 {
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 5px;
       }
 
       p {
         color: #ff6600;
         font-size: 0.8rem;
-        text-align: center;
         margin-top: 0.6rem;
       }
 

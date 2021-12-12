@@ -15,11 +15,11 @@ const Profile = () => {
   ];
 
   return (
-    <div className="profile-container">
+    <aside className="profile-container">
       <div className="info">
         <img src="./img/avatar.jpg" alt="user-pic" />
         <div className="details">
-          <h3>Yves Cedric</h3>
+          <h2>Yves Cedric</h2>
           <p>
             <Typical loop={Infinity} wrapper="b" steps={descriptions} />
           </p>
@@ -39,7 +39,7 @@ const Profile = () => {
           Contact
         </Link>
       </div>
-    </div>
+    </aside>
   );
 };
 

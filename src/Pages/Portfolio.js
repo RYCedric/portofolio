@@ -7,7 +7,12 @@ const Portfolio = () => {
     <div className="main-container">
       <Navigation />
       <Profile />
-      <h1>PORTFOLIO</h1>
+      <main>
+        <h2>
+          <span>Mes </span> Projets
+        </h2>
+        <p>Ci-dessous, quelques exemples de réalisations effectuées</p>
+      </main>
     </div>
   );
 };

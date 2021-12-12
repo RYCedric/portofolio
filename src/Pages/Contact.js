@@ -7,7 +7,11 @@ const Contact = () => {
     <div className="main-container">
       <Navigation />
       <Profile />
-      <h1>CONTACT</h1>
+      <main>
+        <h2>
+          <span>Me </span>Contacter
+        </h2>
+      </main>
     </div>
   );
 };
