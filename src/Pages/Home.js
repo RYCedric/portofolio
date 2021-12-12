@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
 import Profile from "../Components/Profile";
+import Title from "../Components/Title";
 
 const Home = () => {
   return (
@@ -9,9 +10,8 @@ const Home = () => {
       <Profile />
       <main>
         <section>
-          <h2>
-            <span>A propos </span> de Moi
-          </h2>
+          <Title span="A propos" after="de Moi" />
+
           <p>
             Bonjour, je m’appelle Yves Cédric, développeur Web junior.
             <br /> [ ...à remplir... ] <br />

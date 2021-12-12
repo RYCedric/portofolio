@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
 import Profile from "../Components/Profile";
+import Title from "../Components/Title";
 
 const Contact = () => {
   return (
@@ -8,9 +9,7 @@ const Contact = () => {
       <Navigation />
       <Profile />
       <main>
-        <h2>
-          <span>Me </span>Contacter
-        </h2>
+        <Title span="Me" after="Contacter" />
       </main>
     </div>
   );
