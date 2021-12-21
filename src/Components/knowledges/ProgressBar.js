@@ -13,7 +13,6 @@ const ProgressBar = ({ title, languages, className }) => {
       <div>
         {languages.map((item) => {
           let progressBar = item.xp * 100 + "%";
-          console.log(progressBar);
           return (
             <div key={item.id} className="languagesList">
               <li>{item.value}</li>

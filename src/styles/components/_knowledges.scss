@@ -64,7 +64,7 @@
           border-radius: 50px;
           height: 0.2rem;
           width: 0;
-          animation: line 2s ease-out forwards;
+          animation: line 2s ease-out 1s forwards;
           @keyframes line {
             to {
               width: 100%;
@@ -76,6 +76,12 @@
   }
   .hobbies {
     grid-area: H;
+    li {
+      margin-bottom: 0.6rem;
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
   }
 
   .experience {
@@ -90,6 +96,23 @@
     .list {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      li {
+        margin-bottom: 0.6rem;
+        svg {
+          margin-right: 0.5rem;
+        }
+      }
     }
+    @media screen and (max-width: 800px) {
+      .list {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    display: flex;
+    flex-direction: column;
   }
 }

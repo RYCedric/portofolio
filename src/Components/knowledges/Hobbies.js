@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBiking, FaDog, FaGamepad, FaRunning } from "react-icons/fa";
+import { FaDog, FaGamepad, FaRunning } from "react-icons/fa";
 import { GiKatana } from "react-icons/gi";
 import Title from "../Title";
 
@@ -18,10 +18,6 @@ const Hobbies = () => {
         <li className="hobby">
           <FaDog />
           Club cannin
-        </li>
-        <li className="hobby">
-          <FaBiking />
-          Moto
         </li>
         <li className="hobby">
           <GiKatana />

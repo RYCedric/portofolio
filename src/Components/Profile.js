@@ -35,6 +35,7 @@ const Profile = () => {
         <Link to="#" className="btn">
           voir le CV
         </Link>
+        <span></span>
         <Link to="/contact" className="btn">
           Contact
         </Link>
